@@ -26,7 +26,7 @@ $('.login__form').on('submit', function (event) {
     });
     
     $.ajax({
-        url: 'ajax.php',
+        url: '../ajax.php',
         type: 'POST',
         data: data,
         cache: false,
