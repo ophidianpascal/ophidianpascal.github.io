@@ -12,7 +12,7 @@ $('.login__form').on('submit', function (event) {
     $('.submit', form).val('Отправка...');
     $('input, textarea', form).attr('disabled','');
 
-    data.append( 'name', 		$('[name="name"]', form).val() );
+    data.append( 'username', 		$('[username="username"]', form).val() );
 
    
 
