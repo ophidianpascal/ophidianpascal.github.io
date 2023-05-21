@@ -1,0 +1,188 @@
+body
+    margin: 0
+
+.header
+    background-color: #b7151b
+    position: relative
+    height: 56px
+    margin: 0 auto
+    min-width: 100vw
+    flex-shrink: 0
+    &__logo
+        display: inline-block
+        height: 56px
+        width: 171px
+        margin-left: 20px
+    &__wrapper
+        display: flex
+        position: absolute
+        top: 32%
+        left: 61%
+    &__label
+        padding-right: 20px
+        color: #fff
+        letter-spacing: 1.09px
+        font-size: 16px
+        font-weight: 400
+    &__link
+        font-size: 12px
+        letter-spacing: 1.5px
+        text-transform: uppercase
+        color: #fff
+        font-weight: 400
+.login
+    display: flex
+    align-items: center
+    flex-direction: column
+    flex-grow: 1
+    flex-shrink: 0
+    justify-content: center
+    width: 100%
+    &__modal
+        position: relative
+        display: flex
+        flex-direction: column
+        width: 460px
+        height: auto
+        max-height: 100%
+        min-height: 390px
+        margin: 0 auto
+        padding: 24px 40px 20px
+        overflow: auto
+        background-color: #fff
+        box-shadow: 0 0 10px #0003
+        border: solid 1px #d9d9d9
+        border-radius: 20px
+        margin-top: 20px
+        hr
+            border-top: 1px solid #d9d9d9
+            margin: 15px 0
+    &__title
+        color: #404040
+        font-size: 24px
+        font-weight: 400
+        line-height: 46px
+    &__lang
+        height: 52px
+        display: flex
+        justify-content: space-between
+        align-items: center
+        &_icon
+            width: 24px
+            height: 16px
+            width: auto
+            padding: 0
+            border: none
+            border-radius: 0
+            display: inline-flex
+            align-items: center
+            justify-content: center
+            text-align: center
+            color: #d71920
+            background-color: transparent
+            transition: color .2s ease-in-out
+            position: relative
+            &:first-child
+                margin-right: 10px
+    &__wrapper
+        display: flex
+        justify-content: space-between
+    &__descr
+        display: flex
+        align-items: center
+        height: 20px
+        padding-bottom: 10px
+        margin-top: 30px
+        font-size: 12px
+        font-weight: 500
+        line-height: 12px
+        color: #404040
+        text-transform: uppercase
+        letter-spacing: 1px
+    &__input
+        box-sizing: border-box
+        box-shadow: none
+        -webkit-appearance: none
+        appearance: none
+        width: 100%
+        height: 40px
+        line-height: 40px
+        padding: 4px 20px 0
+        font-size: 16px
+        font-weight: 400
+        color: #404040
+        background: #ffffff
+        border: 1px solid #8a8a8a
+        border-radius: 4px
+        transition: all .2s ease-in-out,border-radius 0s
+        height: 50px
+        line-height: 50px
+        border: 1px solid #b7151b
+        border-bottom-left-radius: 0
+        border-bottom-right-radius: 0
+    &__button
+        margin-top: 20px
+        min-width: 140px
+        max-width: 171px
+        width: 100%
+        color: #fff
+        border: 2px solid #d71920
+        background-color: #d71920
+        appearance: none
+        height: 52px
+        padding: 0 24px
+        box-sizing: border-box
+        outline: none
+        font-size: 16px
+        font-weight: 700
+        line-height: 20px
+        font-family: "Lato",sans-serif
+        text-align: center
+        transition: color .2s ease-in-out,background-color .2s ease-in-out,border-color .2s ease-in-out,box-shadow .2s ease-in-out
+        cursor: pointer
+        border-radius: 26px
+        white-space: normal
+        color: #fff
+        &_wrapper
+            display: flex
+            justify-content: flex-end
+    &__client
+        width: auto
+        padding: 0
+        text-decoration: none
+        border: none
+        border-radius: 0
+        text-align: left
+        color: #d71920
+        background-color: transparent
+        transition: color .2s ease-in-out
+        position: relative
+        appearance: none
+        height: 52px
+        box-sizing: border-box
+        outline: none
+        font-size: 16px
+        font-weight: 700
+        line-height: 20px
+        font-family: "Lato",sans-serif
+        transition: color .2s ease-in-out,background-color .2s ease-in-out,border-color .2s ease-in-out,box-shadow .2s ease-in-out
+        cursor: pointer
+        border-radius: 26px
+        margin-top: 20px
+        white-space: normal
+    &__announcement
+        display: flex
+        align-items: center
+        background-color: #f1f1f1
+        margin-left: -40px
+        margin-right: -40px
+        padding: 15px 40px
+        &_descr
+            font-family: Helvetica,Arial,sans-serif
+            font-size: 14px
+            color: #555555
+            strong
+                font-weight: 700
+            a
+                display: inline-block
+                color: #d71920

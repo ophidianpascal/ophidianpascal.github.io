@@ -1,0 +1,34 @@
+@font-face {
+    font-family: 'Название шрифта';
+    src: url('/fonts/lato-black.woff2.woff2') format('woff2'),
+        url('/fonts/lato-black.woff2.woff') format('woff');
+    /* Дополнительные свойства шрифта (например, font-weight, font-style) */
+}
+
+@font-face {
+    font-family: 'Название шрифта';
+    src: url('/fonts/lato-bold.woff2.woff2') format('woff2'),
+        url('/fonts/lato-bold.woff2.woff') format('woff');
+    /* Дополнительные свойства шрифта (например, font-weight, font-style) */
+}
+
+@font-face {
+    font-family: 'Название шрифта';
+    src: url('/fonts/lato-medium.woff2.woff2') format('woff2'),
+        url('/fonts/lato-medium.woff2.woff') format('woff');
+    /* Дополнительные свойства шрифта (например, font-weight, font-style) */
+}
+
+@font-face {
+    font-family: 'Название шрифта';
+    src: url('/fonts/lato-regular.woff2.woff2') format('woff2'),
+        url('/fonts/lato-regular.woff2.woff') format('woff');
+    /* Дополнительные свойства шрифта (например, font-weight, font-style) */
+}
+
+@font-face {
+    font-family: 'Название шрифта';
+    src: url('/fonts/lato-bold-cyrillic.woff2.woff2') format('woff2'),
+        url('/fonts/lato-bold-cyrillic.woff2.woff') format('woff');
+    /* Дополнительные свойства шрифта (например, font-weight, font-style) */
+}
